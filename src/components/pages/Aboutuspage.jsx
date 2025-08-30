@@ -290,7 +290,7 @@ const About = () => {
   return (
     <ErrorBoundary>
       <div className="bg-orange-50 dark:bg-red-900 relative overflow-hidden">
-        <motion.div
+        {/* <motion.div
           className={`fixed w-8 h-8 rounded-full pointer-events-none z-50 mix-blend-difference ${
             isHovering ? 'bg-yellow-500 scale-150' : 'bg-yellow-500 bg-opacity-50'
           }`}
@@ -300,7 +300,7 @@ const About = () => {
             scale: isHovering ? 1.5 : 1
           }}
           transition={{ type: 'spring', stiffness: 500, damping: 28 }}
-        />
+        /> */}
 
         <Section
           className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-br from-red-900 via-red-800 to-red-700"

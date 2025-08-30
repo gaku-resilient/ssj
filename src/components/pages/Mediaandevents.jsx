@@ -309,17 +309,7 @@ const MediaEvents = () => {
     <ErrorBoundary>
       <div className="bg-orange-50 dark:bg-red-900 relative overflow-hidden">
         {/* Cursor Effect */}
-        <motion.div
-          className={`fixed w-8 h-8 rounded-full pointer-events-none z-50 mix-blend-difference ${
-            isHovering ? 'bg-yellow-500 scale-150' : 'bg-yellow-500 bg-opacity-50'
-          }`}
-          animate={{
-            x: cursorPosition.x - 16,
-            y: cursorPosition.y - 16,
-            scale: isHovering ? 1.5 : 1
-          }}
-          transition={{ type: 'spring', stiffness: 500, damping: 28 }}
-        />
+       \
 
         {/* Hero Section */}
         <Section
