@@ -1,0 +1,434 @@
+
+{
+  "hero": {
+    "slide1": {
+      "title": "Shree Radha Raman Sankirtan",
+      "subtitle": "Divine Kirtan Sessions",
+      "description": "Experience the divine love of Radha Krishna through our soulful Kirtan sessions. Join us in celebrating the eternal bond of divine love.",
+      "accent": "Vrindavan Ki Leela",
+      "stats": [
+        { "number": "500+", "label": "Kirtans Performed" },
+        { "number": "10+", "label": "Years of Devotion" }
+      ]
+    },
+    "slide2": {
+      "title": "Radha Raman Jagran",
+      "subtitle": "All-Night Jagran Ceremonies",
+      "description": "Immerse yourself in the divine energy with our all-night Jagran ceremonies. Experience spiritual awakening and inner peace.",
+      "accent": "Radhey Radhey",
+      "stats": [
+        { "number": "1000+", "label": "Devotees Blessed" },
+        { "number": "24", "label": "Hours of Devotion" }
+      ]
+    },
+    "slide3": {
+      "title": "Sacred Vrindavan Pilgrimage",
+      "subtitle": "Spiritual Journey to Vrindavan",
+      "description": "Embark on a spiritual journey to the holy land of Vrindavan with our comfortable bus seva.",
+      "accent": "Radhe Radhe",
+      "stats": [
+        { "number": "50+", "label": "Pilgrimage Tours" },
+        { "number": "2000+", "label": "Happy Pilgrims" }
+      ]
+    },
+    "slide4": {
+      "title": "Dharamshala Accommodation",
+      "subtitle": "Peaceful Stay in Vrindavan",
+      "description": "Stay in our peaceful Dharamshala in Vrindavan. Experience serenity and spiritual growth.",
+      "accent": "Seva Param Dharma",
+      "stats": [
+        { "number": "24/7", "label": "Open for Devotees" },
+        { "number": "100+", "label": "Comfortable Rooms" }
+      ]
+    },
+    "book_now": "Book Now",
+    "learn_more": "Learn More",
+    "mantras": {
+      "hare_krishna": "Hare Krishna",
+      "radhe_radhe": "Radhe Radhe",
+      "jai_shri_ram": "Jai Shri Ram"
+    },
+    "go_to_slide": "Go to slide {{number}}",
+    "prev_slide": "Previous slide",
+    "next_slide": "Next slide",
+    "pause_autoplay": "Pause autoplay",
+    "start_autoplay": "Start autoplay",
+    "aria_label": "Programs and Services Hero section"
+  },
+  "about": {
+    "title": "About Shree Shiv Jyoti",
+    "description": "Founded by 10 dedicated Karyakartas, Shree Shiv Jyoti Sankirtan Mandal has been spreading bhakti and devotion for over a decade. Our mission is to bring the divine joy of Kirtan and Jagran to every home, fostering spiritual growth and community unity.",
+    "stats": {
+      "years": { "number": "10+", "label": "Years of Service" },
+      "events": { "number": "1000+", "label": "Events Organized" }
+    },
+    "learn_more": "Learn More About Us",
+    "image_alt": "Shree Shiv Jyoti Sankirtan Event",
+    "image_title": "Divine Moments",
+    "image_description": "Capturing Sacred Memories"
+  },
+  "services": {
+    "title": "Our Divine Services",
+    "book_now": "Book Now",
+    "service1": {
+      "title": "Kirtan & Jagran Booking",
+      "description": "Celebrate special occasions with our divine Kirtan and Jagran services that bring spiritual joy to your home.",
+      "image_alt": "Kirtan and Jagran Event"
+    },
+    "service2": {
+      "title": "Spiritual Bus Seva",
+      "description": "Travel to sacred Vrindavan temples with our comfortable and affordable bus services.",
+      "image_alt": "Spiritual Bus Seva"
+    },
+    "service3": {
+      "title": "Dharamshala Booking",
+      "description": "Stay in our serene Dharamshala in Vrindavan for a peaceful spiritual experience.",
+      "image_alt": "Dharamshala in Vrindavan"
+    },
+    "service4": {
+      "title": "Event Photography",
+      "description": "Professional photography and videos of your spiritual events for lasting memories.",
+      "image_alt": "Event Photography"
+    },
+    "service5": {
+      "title": "Meet Our Karyakartas",
+      "description": "Learn about our 10 dedicated Karyakartas leading our spiritual mission.",
+      "image_alt": "Karyakartas Team"
+    }
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "new": "New",
+    "join_us": "Join Us",
+    "event1": {
+      "title": "Radha Krishna Jagran",
+      "date": "Aug 10, 2025",
+      "place": "Vrindavan",
+      "description": "Join us for an all-night divine celebration",
+      "image_alt": "Radha Krishna Jagran Event"
+    },
+    "event2": {
+      "title": "Shiv Bhakti Kirtan",
+      "date": "Aug 15, 2025",
+      "place": "Delhi",
+      "description": "Experience the power of devotional singing",
+      "image_alt": "Shiv Bhakti Kirtan Event"
+    },
+    "event3": {
+      "title": "Spiritual Retreat",
+      "date": "Sep 5, 2025",
+      "place": "Mathura",
+      "description": "A weekend of meditation and peace",
+      "image_alt": "Spiritual Retreat"
+    }
+  },
+  "gallery": {
+    "title": "Our Divine Moments",
+    "video_alt": "Kirtan Video Thumbnail",
+    "play_video": "Play video",
+    "image1_alt": "Gallery Image 1",
+    "image2_alt": "Gallery Image 2",
+    "image3_alt": "Gallery Image 3",
+    "image4_alt": "Gallery Image 4",
+    "see_full": "See Full Gallery"
+  },
+  "testimonials": {
+    "title": "Community Blessings",
+    "aria_label": "Testimonials",
+    "testimonial1": {
+      "quote": "The Kirtan organized by Shree Shiv Jyoti was a divine experience!",
+      "author": "Anita Sharma",
+      "location": "Delhi"
+    },
+    "testimonial2": {
+      "quote": "The bus seva made our Vrindavan pilgrimage seamless and joyful.",
+      "author": "Ramesh Patel",
+      "location": "Mumbai"
+    },
+    "testimonial3": {
+      "quote": "Shree Shiv Jyoti's Kirtan brought our community together in divine harmony.",
+      "author": "Temple Priest",
+      "location": "Vrindavan"
+    }
+  },
+     "cta": {
+    "aria_label": "Call to Action",
+    "title": "Join Our Divine Services",
+    "description": "Join thousands who've found peace, purpose, and profound transformation through our guided spiritual journey.",
+    "organization_name": "Shree Shiv Jyoti Sankirtan Mandal",
+    "call_now_text": "Speak with a Guide",
+    "call_now_number": "+91 123-456-7890",
+    "call_us": "Call Us",
+    "contact_text": "Join Our Community",
+    "contact_email": "vij.bhushan87@gmail.com",
+    "support_24_7": "24/7 Support",
+    "donate": "Donate Now",
+    "donate_text": "Support Our Mission",
+    "donate_description": "Help us reach more souls in need",
+    "donate_alert": "Donation page will be available soon. Please contact us directly.",
+    "contact": "Contact Us",
+    "email": "Email Us",
+    "book_now": "Book Now",
+    "stats": {
+      "lives_transformed": "Lives Transformed",
+      "support_available": "Support Available",
+      "satisfaction_rate": "Satisfaction Rate"
+    }},
+  "common": {
+    "loading": "Processing your request...",
+    "error": "Something went wrong",
+    "reload_page": "Reload Page"
+  },
+  "nav": {
+    "logo": "Shree Shiv Jyoti Sankirtan Mandal",
+    "home": "Home",
+    "about": "About",
+    "donations": "Donations",
+    "programs": "Programs & Services",
+    "media_events": "Media & Events",
+    "contact": "Contact",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
+  },
+    "donationshero": {
+    "title": "Support Our Divine Mission",
+    "description": "Your generous donations help us spread the divine joy of Kirtan and Jagran, maintain our Dharamshala, provide affordable bus seva, and create professional media to share our spiritual journey."
+  },
+  "donation_methods": {
+    "aria_label": "Donation Methods",
+    "title": "How to Donate",
+    "method1": {
+      "title": "UPI Payment",
+      "description": "Scan the QR code to donate via UPI (Google Pay, PhonePe, Paytm, etc.).",
+      "image_alt": "UPI QR Code for Shree Shiv Jyoti Donations"
+    },
+    "method2": {
+      "title": "Bank Transfer",
+      "description": "Transfer directly to our bank account for secure donations.",
+      "details": {
+        "account_name": "Account Name: Shree Shiv Jyoti Sankirtan Mandal",
+        "account_number": "Account Number: 123456789012",
+        "ifsc_code": "IFSC Code: SBIN0001234",
+        "bank": "Bank: State Bank of India",
+        "branch": "Branch: Vrindavan"
+      }
+    }
+  },
+  "impact_stories": {
+    "aria_label": "Impact Stories",
+    "title": "Impact of Your Donations",
+    "story1": {
+      "quote": "Your donations helped us organize a grand Jagran that uplifted our entire village.",
+      "author": "Anita Sharma",
+      "location": "Vrindavan"
+    },
+    "story2": {
+      "quote": "The Dharamshala stay was made possible through your support, creating a serene experience.",
+      "author": "Ramesh Patel",
+      "location": "Delhi"
+    }
+  },
+  "why_donate": {
+    "aria_label": "Why Donate",
+    "title": "Why Your Donation Matters",
+    "description": "Your generous contributions fuel our mission to spread divine bhakti through Kirtans, Jagrans, and spiritual services. Donations support:",
+    "benefits": {
+      "organizing": "Organizing soulful Kirtan and Jagran events across communities.",
+      "maintaining": "Maintaining our serene Dharamshala in Vrindavan for devotees.",
+      "providing": "Providing affordable bus seva to sacred temples.",
+      "creating": "Creating professional media to share divine moments on YouTube."
+    },
+    "learn_more": "Learn More About Our Work",
+    "image_alt": "Devotees at Shree Shiv Jyoti Kirtan event in Vrindavan"
+  },
+  "programs_and_services": {
+    "aria_label": "Programs and Services",
+    "title": "Our Sacred Offerings",
+    "description": "Experience spiritual bliss and community unity through the divine services of Shree Shiv Jyoti Sankirtan Mandal.",
+    "learn_more": "Learn More"
+  },
+  "programs": {
+    "aria_label": "Our Programs",
+    "title": "Our Sacred Offerings",
+    "learn_more": "Learn More",
+    "service1": {
+      "title": "Kirtan & Jagran Booking",
+      "description": "Celebrate birthdays, anniversaries, or special occasions with our divine Kirtan and Jagran services, led by experienced Karyakartas. Immerse in soulful bhakti with devotional music and spiritual gatherings.",
+      "image_alt": "Shree Shiv Jyoti Kirtan and Jagran service"
+    },
+    "service2": {
+      "title": "Spiritual Bus Seva",
+      "description": "Travel to sacred Vrindavan temples with our comfortable and affordable bus services. Join our guided pilgrimages to experience divine darshan and spiritual serenity.",
+      "image_alt": "Shree Shiv Jyoti Spiritual Bus Seva"
+    },
+    "service3": {
+      "title": "Dharamshala Booking",
+      "description": "Stay in our serene Dharamshala in Vrindavan for a peaceful spiritual experience. Affordable accommodations designed for devotees seeking tranquility.",
+      "image_alt": "Shree Shiv Jyoti Dharamshala in Vrindavan"
+    },
+    "service4": {
+      "title": "Event Photography & YouTube",
+      "description": "Relive our events through professional photography and videos on our YouTube channel. Share the divine moments of our Kirtans and Jagrans with the world.",
+      "image_alt": "Shree Shiv Jyoti Event Photography"
+    },
+    "service5": {
+      "title": "Meet Our Karyakartas",
+      "description": "Learn about our 10 dedicated Karyakartas leading our mission with devotion and service. Connect with the team driving our spiritual initiatives.",
+      "image_alt": "Shree Shiv Jyoti Karyakartas Team"
+    }
+  },
+  "how_it_works": {
+    "aria_label": "How It Works",
+    "title": "How to Engage with Our Services",
+    "step1": {
+      "step": "Step 1: Choose Your Service",
+      "description": "Select from Kirtan & Jagran, Bus Seva, Dharamshala, or other offerings."
+    },
+    "step2": {
+      "step": "Step 2: Contact Us",
+      "description": "Reach out via our contact page or call to discuss your needs."
+    },
+    "step3": {
+      "step": "Step 3: Book & Enjoy",
+      "description": "Confirm your booking and experience divine services with ease."
+    }
+    
+  },
+   "contact": {
+    "hero": {
+      "title": "Connect with Us",
+      "description": "Reach Out for Divine Guidance and Inquiries",
+      "aria_label": "Contact Hero section"
+    },
+    "form": {
+      "aria_label": "Contact Form",
+      "title": "Send Us a Message",
+      "description": "Have questions about our Kirtans, Jagrans, or services? Fill out the form below, and our team will get back to you promptly.",
+      "name": "Name",
+      "name_placeholder": "Your Name",
+      "email": "Email",
+      "email_placeholder": "Your Email",
+      "message": "Message",
+      "message_placeholder": "Your Message",
+      "submit": "Send Message",
+      "submitting": "Submitting...",
+      "success": "Message sent successfully! We'll get back to you soon.",
+      "error": "Failed to send message. Please try again later.",
+      "errors": {
+        "name_required": "Name is required",
+        "email_required": "Email is required",
+        "email_invalid": "Email is invalid",
+        "message_required": "Message is required"
+      },
+      "image_alt": "Devotees at Shree Shiv Jyoti Kirtan event in Vrindavan"
+    },
+ 
+    "details": {
+      "aria_label": "Contact Details",
+      "title": "Our Contact Details",
+      "phone": {
+        "title": "Phone"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "address": {
+        "title": "Address",
+        "detail": "Shree Shiv Jyoti Sankirtan Mandal, Vrindavan, Mathura, Uttar Pradesh, India"
+      }
+    },
+    "map": {
+      "aria_label": "Location Map",
+      "title": "Find Us in Vrindavan",
+      "iframe_title": "Shree Shiv Jyoti Sankirtan Mandal Location in Vrindavan"
+    }
+  },
+    "aboutpage": {
+    "hero": {
+      "title": "About Shree Shiv Jyoti",
+      "subtitle": "Spreading Divine Bhakti Since 2010"
+    },
+    "journey": {
+      "title": "Our Spiritual Journey",
+      "description": "Established in 2010 by 10 passionate Karyakartas, Shree Shiv Jyoti Sankirtan Mandal began with a vision to spread the divine joy of Kirtan and Jagran across communities. Rooted in Vrindavan, the land of Lord Krishna, our organization has grown to organize over 1,000 soulful events, touching the lives of thousands of devotees. We strive to foster spiritual awakening and community unity through our services.",
+      "button": "Join Our Mission"
+    },
+    "mission_vision": {
+      "title": "Our Mission & Vision",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To bring the divine vibrations of Kirtan and Jagran to every home, fostering spiritual growth, devotion, and unity. We aim to make sacred experiences accessible through our bus seva, Dharamshala, and community events."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To create a world where every soul experiences the bliss of bhakti, connected through love, compassion, and spiritual harmony, inspired by the teachings of Vrindavan’s sacred traditions."
+      }
+    },
+    "karyakartas": {
+      "title": "Meet Our Karyakartas",
+      "members": [
+        {
+          "name": "Naresh Mittal",
+          "role": "Mandal President",
+          "description": "Guides the spiritual direction of our Kirtans with 15 years of devotion."
+        },
+        {
+          "name": "Somnath Madan",
+          "role": "Mandal Sarprasth",
+          "description": "Leads with dedication to uphold our spiritual mission."
+        },
+        {
+          "name": "Vijay Pruthi",
+          "role": "Mandal Vice President",
+          "description": "Supports the leadership in organizing community events."
+        },
+        {
+          "name": "Sachin Sharma",
+          "role": "Mandal Joint Secretary",
+          "description": "Ensures smooth coordination of our programs."
+        },
+        {
+          "name": "Bhushan Vij",
+          "role": "Media Lead",
+          "description": "Captures and shares our divine moments on YouTube and social media."
+        },
+        {
+          "name": "Aajya Juneja",
+          "role": "Secretary",
+          "description": "Connects with communities to spread bhakti."
+        },
+        {
+          "name": "Desraj Sehgal and Jyoti",
+          "role": "Founder and Cashier",
+          "description": "Founded the organization with a vision for spiritual unity."
+        }
+      ]
+    },
+    "impact": {
+      "title": "Our Impact",
+      "stats": [
+        { "value": "1000+", "label": "Events Organized" },
+        { "value": "5000+", "label": "Devotees Served" },
+        { "value": "15", "label": "Years of Bhakti" }
+      ]
+    },
+    "testimonials": {
+      "title": "Community Blessings",
+      "items": [
+        {
+          "quote": "Shree Shiv Jyoti’s dedication to bhakti has transformed our community events.",
+          "author": "Anita Sharma",
+          "location": "Delhi",
+          "rating": 5
+        },
+        {
+          "quote": "Their spiritual guidance has brought peace to countless devotees.",
+          "author": "Ramesh Patel",
+          "location": "Mumbai",
+          "rating": 5
+        }
+      ]
+    }
+  }
+}
+
