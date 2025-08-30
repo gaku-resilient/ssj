@@ -510,7 +510,7 @@
 
 
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback  } from 'react';
 import { Phone, Mail, Heart, Users, Clock, Star } from 'lucide-react';
 import useTranslation from '../../i18n/useTranslation';
 
@@ -529,6 +529,9 @@ const CtaReusable = ({
     { number: "24/7", label: t('cta.stats.support_available'), icon: Clock },
     { number: "98%", label: t('cta.stats.satisfaction_rate'), icon: Star }
   ];
+   const handledonationpage = useCallback(() => {
+      window.location.href = '/donations';
+    }, []);
 
   const Link = ({ to, children, className, ...props }) => (
     <a href={to} className={className} {...props}>
@@ -709,9 +712,9 @@ const CtaReusable = ({
           {/* Donate */}
           <div className="group relative md:col-span-1">
             <div className="absolute -inset-2 bg-gradient-to-r from-amber-300 to-orange-400 rounded-2xl blur opacity-40 group-hover:opacity-100 transition duration-1000 animate-pulse" />
-            <Link to="/donations">
+           
               <button
-                onClick={() => console.log('Donate to organization')}
+                onClick={() => handledonationpage()}
                 className="relative w-full bg-gradient-to-r from-amber-400 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-white p-8 rounded-xl shadow-2xl transform transition-all duration-300 hover:scale-110 hover:-translate-y-2"
               >
                 <Heart className="w-8 h-8 mx-auto animate-pulse" />
@@ -721,7 +724,7 @@ const CtaReusable = ({
                   {t('cta.donate')}
                 </div>
               </button>
-            </Link>
+        
           </div>
         </div>
 
@@ -738,7 +741,7 @@ const CtaReusable = ({
         </div> */}
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes twinkle {
           0%, 100% { opacity: 0.3; transform: scale(1); }
           50% { opacity: 1; transform: scale(1.2); }

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Phone, Mail, MapPin, Youtube, Facebook, Instagram, Heart } from 'lucide-react';
+import React, { useCallback  } from 'react';
+import { Phone, Mail, MapPin, Youtube, Facebook, Heart } from 'lucide-react';
 
 const Footer = () => {
   const handleContactClick = (type) => {
@@ -11,25 +11,27 @@ const Footer = () => {
         window.open('mailto:info@shreeshivjyoti.com', '_self');
         break;
       case 'youtube':
-        window.open('https://youtube.com/@shreeshivjyoti', '_blank');
+        window.open('https://youtube.com/@deshraj68?si=URD0Anm3ejVjExpH', '_blank');
         break;
       case 'facebook':
-        window.open('https://facebook.com/shreeshivjyoti', '_blank');
+        window.open('https://www.facebook.com/share/16kTvFbBga/', '_blank');
         break;
-      case 'instagram':
-        window.open('https://instagram.com/shreeshivjyoti', '_blank');
+      case 'whatsapgroup':
+        window.open('Follow this link to join my WhatsApp group: https://chat.whatsapp.com/HQIzw7FYD7z9JylAWEKYGa?mode=ac_t', '_blank');
         break;
       default:
         break;
     }
   };
 
+
+
   const quickLinks = [
-    { name: 'About Us', href: '#about' },
-    { name: 'Services', href: '#services' },
-    { name: 'Events', href: '#events' },
-    { name: 'Gallery', href: '#gallery' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'About Us', href: 'about' },
+    { name: 'Program & Services', href: 'program' },
+    { name: 'Media & Events', href: 'media-events' },
+    { name: 'Donations', href: 'donations' },
+    { name: 'Contact', href: 'contact' }
   ];
 
   const services = [
@@ -83,13 +85,14 @@ const Footer = () => {
                 >
                   <Facebook size={20} className="group-hover:text-yellow-400 transition-colors duration-300" />
                 </button>
-                <button 
-                  onClick={() => handleContactClick('instagram')}
+                {/* <button 
+                  onClick={() => handleContactClick('whatsapgroup')}
                   className="bg-red-800 hover:bg-red-700 p-3 rounded-full transition-all duration-300 transform hover:scale-110 group"
-                  aria-label="Instagram Profile"
+                  aria-label="Facebook Page"
                 >
-                  <Instagram size={20} className="group-hover:text-yellow-400 transition-colors duration-300" />
-                </button>
+                  <Facebook size={20} className="group-hover:text-yellow-400 transition-colors duration-300" />
+                </button> */}
+                
               </div>
             </div>
 
