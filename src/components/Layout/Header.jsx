@@ -279,7 +279,7 @@ const Header = () => {
                 animate="animate"
                 transition={{ ...ANIMATION_VARIANTS.menuItemFade.transition, delay: index * 0.1 }}
               >
-                {/* <Link
+                <Link
                   to={link.to}
                   className={`text-lg font-medium transition-colors ${
                     location.pathname === link.to
@@ -289,7 +289,7 @@ const Header = () => {
                   aria-current={location.pathname === link.to ? 'page' : undefined}
                 >
                   {link.text}
-                </Link> */}
+                </Link>
               </motion.div>
             ))}
             <motion.div
